@@ -32,10 +32,10 @@
 .card {
   object-fit: cover;
   margin: 0.5rem;
-  width: 25rem;
-  height: 40rem;
+  width: 20rem;
+  height: 30rem;
   border-radius: 20px;
-  background: #181818;
+  background: #202020;
   position: relative;
   padding: 1.8rem;
   border: 2px solid #191919;

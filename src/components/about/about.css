@@ -1,7 +1,7 @@
 #about {
   overflow: hidden;
   width: 100vw;
-  height: calc(100vh - 4rem);
+  min-height: calc(100vh - 4rem);
   max-width: 90rem;
   display: flex;
   flex-direction: column;
@@ -9,7 +9,6 @@
   justify-content: center;
   text-align: center;
   margin: 0 auto;
-  position: relative;
 }
 
 .aboutTitle {
@@ -27,30 +26,42 @@
 }
 
 .skillBars {
-  margin: 1.5rem;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100vw;
-  max-width: 80%;
-  text-align: left;
+  max-width: 90rem;
+  flex-wrap: wrap;
 }
 
 .skillBar {
-  display: flex;
-  margin: 1rem;
-  padding: 1.5rem 2rem;
-  border-radius: 0.5rem;
+  object-fit: cover;
+  margin: 0.5rem;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 20px;
   background: #202020;
+  position: relative;
+  padding: 1.8rem 0;
+  border: 2px solid #191919;
+  transition: 0.5s ease-out;
 }
 
 .skillBarImg {
   object-fit: cover;
   height: 3rem;
   width: 3rem;
-  margin-right: 2rem;
 }
 
 .skillBarText {
   font-size: 1rem;
   font-weight: 200;
+}
+
+.skillBar:hover {
+  border-color: #c84b31;
+  box-shadow: 0 4px 18px 0 #181818;
 }
 
 @media screen and (max-width: 720px) {
