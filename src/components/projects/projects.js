@@ -6,7 +6,8 @@ const Projects = () => {
     <section id="projects">
       <h2 className="projectTitle">Projects</h2>
       <span className="projectDesc">
-        Here, are some projects I have worked on
+        Here, are some of my recent projects. Constantly working on evolving
+        these projects as well as built new ones.
       </span>
       <div className="cardList">
         <div className="card">
@@ -25,7 +26,7 @@ const Projects = () => {
               React - Frontend <br /> Spring Boot - Backend
             </p>
           </div>
-          <a href="https://github.com/im-harshal/crm-app">
+          <a href="https://github.com/im-harshal/contact-list-app">
             <button className="card-button">More info</button>
           </a>
         </div>
@@ -33,12 +34,21 @@ const Projects = () => {
           <div className="card-details">
             <p className="text-title">Word Guess Game</p>
             <p className="text-body">
-              Python <br /> NLTK - Natural Language Toolkit{" "}
+              Python <br /> NLTK - Natural Language Toolkit
             </p>
           </div>
           <a href="https://github.com/im-harshal/word-guess-game">
             <button className="card-button">More info</button>
           </a>
+        </div>
+        <div className="card">
+          <div className="card-details">
+            <p className="text-title">Web Crawler & ChatBot</p>
+            <p className="text-body">
+              Working on it currently will add link to it soon
+            </p>
+          </div>
+          <button className="card-button">More info</button>
         </div>
       </div>
     </section>

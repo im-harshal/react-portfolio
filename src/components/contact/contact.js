@@ -58,9 +58,15 @@ const Contact = () => {
           Submit
         </button>
         <div className="links">
-          <img src={Github} alt="Github" className="link" />
-          <img src={Linkedin} alt="LinkedIn" className="link" />
-          <img src={Instagram} alt="Instagram" className="link" />
+          <a href="https://github.com/im-harshal">
+            <img src={Github} alt="Github" className="link" />
+          </a>
+          <a href="https://www.linkedin.com/in/hp97/">
+            <img src={Linkedin} alt="LinkedIn" className="link" />
+          </a>
+          <a href="https://www.instagram.com/emharshal/">
+            <img src={Instagram} alt="Instagram" className="link" />
+          </a>
         </div>
       </form>
     </section>

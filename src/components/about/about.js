@@ -2,7 +2,8 @@ import "./about.css";
 import React from "react";
 import Backend from "../../assets/images/backend.png";
 import Frontend from "../../assets/images/frontend.png";
-import MlNlp from "../../assets/images/nlp.png";
+import MlNlp from "../../assets/images/ml.png";
+import Vr from "../../assets/images/vr.png";
 
 const About = () => {
   return (
@@ -10,10 +11,12 @@ const About = () => {
       <span className="aboutTitle">About</span>
       <span className="aboutDesc">
         Fueled by passion and a Master's from UT Dallas, I'm a software engineer
-        who thrives on building impactful solutions. From India to Texas, I've
-        tackled real-world challenges at BillDesk, crafting APIs, mastering
-        microservices, and even exploring ML. What drives me? Seeing my code
-        improve lives, be it optimizing applications or empowering users. <br />
+        who thrives on building impactful solutions. <br />
+        From India to Texas, I've tackled real-world challenges at BillDesk,
+        crafting APIs, mastering microservices, and even exploring ML. <br />
+        <br />
+        What drives me? Seeing my code improve lives, be it optimizing
+        applications or empowering users. <br />
         <br />
         More than just code: I'm a team player, mentoring future coders and
         actively involved in communities like Google DSC. <br />
@@ -32,11 +35,12 @@ const About = () => {
         <div className="skillBar">
           <img className="skillBarImg" src={Backend} alt="" />
           <div className="skillBarText">
-            <h2>Backend & Database</h2>
+            <h2>Backend </h2>
+            <h2>& Database</h2>
             <ul>Spring Boot</ul>
             <ul>Oracle</ul>
             <ul>MySql</ul>
-            <ul>Aerospike</ul>
+            <ul>MongoDB</ul>
           </div>
         </div>
         <div className="skillBar">
@@ -56,16 +60,17 @@ const About = () => {
             <h2> & NLP</h2>
             <ul>Python</ul>
             <ul>scikit Learn</ul>
-            <ul>Pandas | NumPy</ul>
+            <ul>Pandas</ul>
+            <ul> NumPy</ul>
             <ul>NLTK</ul>
           </div>
         </div>
         <div className="skillBar">
-          <img className="skillBarImg" src={MlNlp} alt="" />
+          <img className="skillBarImg" src={Vr} alt="" />
           <div className="skillBarText">
             <h2>Virtual Reality</h2>
-            <ul>Unity</ul>
             <ul>C#</ul>
+            <ul>Unity</ul>
           </div>
         </div>
       </div>
