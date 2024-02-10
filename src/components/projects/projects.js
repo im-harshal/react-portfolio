@@ -7,7 +7,7 @@ const Projects = () => {
       <h2 className="projectTitle">Projects</h2>
       <span className="projectDesc">
         Here, are some of my recent projects. Constantly working on evolving
-        these projects as well as built new ones.
+        these projects as well as building new ones.
       </span>
       <div className="cardList">
         <div className="card">
