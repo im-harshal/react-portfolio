@@ -40,7 +40,6 @@ const About = () => {
             <ul>Spring Boot</ul>
             <ul>Oracle</ul>
             <ul>MySql</ul>
-            <ul>MongoDB</ul>
           </div>
         </div>
         <div className="skillBar">
